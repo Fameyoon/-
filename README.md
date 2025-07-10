@@ -1,33 +1,22 @@
-# -
-홈페이지 제작 with 이명박
-
-# 🛰️ 홉페이지 프로젝트 (Astro 기반)
-
-회사 브랜드와 콘텐츠(강의, 유튜브 등)를 홍보하기 위한 정적 웹사이트입니다.  
-Astro 프레임워크를 기반으로 빠른 속도와 간결한 구조를 추구하며, 비전공자도 Markdown 파일 등을 통해 쉽게 콘텐츠 기여가 가능합니다.
-
----
-
-## 🧱 기술 스택
-
-- [Astro](https://astro.build/) – 정적 사이트 프레임워크
-- HTML / CSS / JavaScript
-- Markdown – 블로그 및 후기 콘텐츠 작성용
-- GitHub Pages / Vercel – 배포 플랫폼 (선택)
-- (선택적으로) React 컴포넌트 삽입 가능
-
----
-
-## 📂 프로젝트 구조
-
-```bash
-/
-├── public/               # 이미지 및 정적 자산
-├── src/
-│   ├── pages/            # 개별 페이지 (index.astro 등)
-│   ├── components/       # 재사용 UI 컴포넌트
-│   ├── layouts/          # 공통 레이아웃
-├── posts/                # 마크다운 기반 콘텐츠 (후기, 블로그)
-├── astro.config.mjs      # Astro 설정 파일
-├── package.json
-└── README.md
+2. <doctype html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+    	  <title>HTML과 친해지기</title>
+	</head>
+	<body>
+	  <h1>여기는 body의 제목이양</h1>
+    <h2>여기는 body의 소제목이양</h2>
+    <h3>여기는 body의 세 번째 제목이양</h3>
+    <h4>여기는 body의 네 번째 제목이양</h4>
+    <h5>여기는 body의 다섯 번째 제목이양</h5>
+    <h6>여기는 body의 여섯 번째 제목이양></h6>
+	  <p>이건 본문을 작성하는 공간이양 여기에서 글이 길어서 줄바꿈을 하고 싶으면 태그로 'br'을 넣으면 돼.
+   <br>이건 태그에다가 br을 넣어서 줄내림을 한 거야. 그러니 줄이 바뀌었지? 다시 한 번 줄 내림을 해볼게
+    <br>짜잔~
+    <br>추가로 링크를 넣을 수 있는 태그를 알려줄게. a태그가 바로 링크를 넣을 수 있는 태그야.
+    <br>a href="www.naver.com" /a하면 아래의 링크가 나오게 될 거야.
+    <br<a href="https://naver.com" 네이버 바로가기</a></p>
+	<img src="이미지주소.jpg"alt="이미지 설명">
+	</body>
+</html>
